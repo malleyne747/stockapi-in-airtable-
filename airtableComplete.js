@@ -1,4 +1,4 @@
-//completed airtable asssignment Michael Alleyne 
+
 
 /*
 function: percent_diff(val1, val2)
@@ -12,7 +12,7 @@ return ( (Math.abs(val1-val2))/ ((val1 + val2)/2) )  * 100; }
 let table = base.getTable("Stocks"); 
 let result  = await table.selectRecordsAsync(); 
 let records = result.records;
-// add aditional fields here if you want to calculate or grab additional stock data to add to next column! ... ***make sure to add to json object built inside loop too ***
+// add aditional fields here if you want to calculate or grab additional stock data to add to next column ... ***make sure to add to json object built inside loop too ***
 let nameField =  table.getField("Name"); 
 let clsField = table.getField("Last close"); 
 let changeField = table.getField("Change"); 
